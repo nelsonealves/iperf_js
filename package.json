@@ -1,0 +1,19 @@
+{
+  "name": "iperf_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonealves/iperf_js.git"
+  },
+  "author": "Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonealves/iperf_js/issues"
+  },
+  "homepage": "https://github.com/nelsonealves/iperf_js#readme"
+}
