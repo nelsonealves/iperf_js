@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<ul>
+	<li>
+		<div class='server'>
+			<input type="checkbox" class="localhost"> Localhost <br>
+			<label> IP:	</label><input type='text' class="host"><br>
+			<label> Port: </label><input type='text' class="port" value="22"><br>
+			<label> Username: </label><input type='text' class="username"><br>
+			<label> Password: </label><input type='password' class="password"><br>
+			<input type="button" value="Connect Server" class="connect">
+			<div class="label_state_server">Servidor desconectado</div><br>
+			
+			<label>Client/Server:</label><br>
+			<input type="checkbox" class='bandwidth_check'> 			Bandwidth 				<input type='text' class='bandwidth_text'><br>
+			<input type="checkbox" class='enhaced_check'> 				Enhanced Reports 	<input type='text' class='enhaced_text'><br>
+			<input type="checkbox" class='format_check'> 					Format 						<input type='text' class='format_text'><br>
+			<input type="checkbox" class='interval_check'> 				Interval 					<input type='text' class='interval_text'><br>
+			<input type="checkbox" class='length_check'> 					Length 						<input type='text' class='length_text'><br>
+			<input type="checkbox" class='print_max_mtu_check'> 	Print Max MTU 		<input type='text' class='print_max_mtu_text'><br>
+			<input type="checkbox" class='output_check'> 					Output						<input type='text' class='output_text'><br>
+			<input type="checkbox" class='port_check'> 						Port 							<input type='text' class='port_text'><br>						
+			<input type="checkbox" class='udp_check'> 						UDP 							<input type='text' class='udp_text'><br>
+			<input type="checkbox" class='window_check'> 					Window 						<input type='text' class='window_text'><br>
+			<input type="checkbox" class='real_time_check'> 			Real Time 				<input type='text' class='real_time_text'><br>
+			<input type="checkbox" class='bind_check'> 						Bind 							<input type='text' class='bind_text'><br>
+			<input type="checkbox" class='compatibility_check'> 	Compatibility 		<input type='text' class='compatibility_text'><br>
+			<input type="checkbox" class='set_max_mtu_check'> 		Set Max MTU 			<input type='text' class='set_max_mtu_text'><br>		
+			<input type="checkbox" class='no_delay_check'> 				No Delay 					<input type='text' class='no_delay_text'><br>
+
+
+			
+			<div class='stream_out'>
+				dsfdsf
+			</div>
+		</div>
+		
+	</li>
+	<li>
+		<div class='client'>
+			<input type="checkbox" class="localhost"> Localhost <br>
+			<label> IP:	</label><input type='text' class="host"><br>
+			<label> Port:				</label><input type='text' class="port" value="22"><br>
+			<label> Username: </label><input type='text' class="username"><br>
+			<label> Password:		</label><input type='password' class="password"><br>
+			<input type="button" value="Connect Client" class="connect">
+			<div class="label_state_client">Cliente desconectado</div><br>
+			<label>Client/Server:</label><br>
+			<input type="checkbox" class='bandwidth_check'> 			Bandwidth 				<input type='text' class='bandwidth_text'><br>
+			<input type="checkbox" class='enhaced_check'> 				Enhanced Reports 	<input type='text' class='enhaced_text'><br>
+			<input type="checkbox" class='format_check'> 					Format 						<input type='text' class='format_text'><br>
+			<input type="checkbox" class='interval_check'> 				Interval 					<input type='text' class='interval_text'><br>
+			<input type="checkbox" class='length_check'> 					Length 						<input type='text' class='length_text'><br>
+			<input type="checkbox" class='print_max_mtu_check'> 	Print Max MTU 		<input type='text' class='print_max_mtu_text'><br>
+			<input type="checkbox" class='output_check'> 					Output						<input type='text' class='output_text'><br>
+			<input type="checkbox" class='port_check'> 						Port 							<input type='text' class='port_text'><br>						
+			<input type="checkbox" class='udp_check'> 						UDP 							<input type='text' class='udp_text'><br>
+			<input type="checkbox" class='window_check'> 					Window 						<input type='text' class='window_text'><br>
+			<input type="checkbox" class='real_time_check'> 			Real Time 				<input type='text' class='real_time_text'><br>
+			<input type="checkbox" class='bind_check'> 						Bind 							<input type='text' class='bind_text'><br>
+			<input type="checkbox" class='compatibility_check'> 	Compatibility 		<input type='text' class='compatibility_text'><br>
+			<input type="checkbox" class='set_max_mtu_check'> 		Set Max MTU 			<input type='text' class='set_max_mtu_text'><br>		
+			<input type="checkbox" class='no_delay_check'> 				No Delay 					<input type='text' class='no_delay_text'><br>
+
+			<div class='stream_out'>
+				sfdfs
+			</div>
+		</div>
+		
+
+	</li>
+</ul>
+<script src="variables.js"></script>
+<script src="functions.js"></script>
+<script src="events.js"></script>
+<script src="index.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
+
