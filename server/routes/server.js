@@ -1,16 +1,16 @@
-module.exports = (express) => {
-    express.post('/server', (req, res) => {
-      console.log(req.body); 
-      //console.log('Cheguei');
-      //res.json(req.body); 
-      express.server.controllers.server.exec_command(req, res);
-    });
 
+let shelljs = require('shelljs');
+
+
+module.exports = (express) => {
+  express.post('/server', (req, res) => {
+      express.server.controllers.server.auth_iperf(express,req, res);  
+  })
 }
 
 
 
-    // let Client = require('ssh2');
+    // 
     
     
     

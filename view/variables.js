@@ -4,6 +4,7 @@ let localhost_s = document.querySelector('.server .localhost');
 
 let ip_s = document.querySelector('.server .host');
 let port_s = document.querySelector('.server .port');
+let username_s = document.querySelector('.server .hostname');
 let passwd_s = document.querySelector('.server .password');
 
 let bandwidth_check_s	= document.querySelector('.server .bandwidth_check');
@@ -44,6 +45,7 @@ let localhost_c = document.querySelector('.client .localhost');
 
 let ip_c = document.querySelector('.client .host');
 let port_c = document.querySelector('.client .port');
+let username_c = document.querySelector('.client .hostname');
 let passwd_c = document.querySelector('.client .password');
 
 

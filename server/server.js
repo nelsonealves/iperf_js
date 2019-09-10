@@ -9,10 +9,10 @@ express.use(bodyParser.json());
 express.use(cors());
 consign().include('server/routes')
 .then('server/controllers')
+.then('server/socketio.js')
 .into(express);
 
-
-express.listen(8080, function(){
+express.listen(8080, function(service){
 	console.log("Servidor online.");
 });
 

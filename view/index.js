@@ -1,5 +1,15 @@
-
-
+var socket = io.connect('http://localhost:7070');
+socket.on('connect', function() {
+	
+	socket.on('server_iperf', (data) => {
+		stream_out_s.textContent += data;
+		stream_out_s.set
+	})
+	socket.on('client_iperf', (data) => {
+		stream_out_s.textContent += data;
+		stream_out_s.set
+	})
+});
 // ssh_connect = (host, port=22, username, password) => {
 // 	var conn = new Client();
 // 	conn.connect({
